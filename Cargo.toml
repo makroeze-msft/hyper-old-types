@@ -18,14 +18,14 @@ include = [
 
 [dependencies]
 base64 = "0.9"
-bytes = "0.4.4"
-http = { version = "0.1", optional = true }
+bytes = {path = "../bytes"}
+http = { path = "../http", optional = true }
 httparse = "1.0"
 language-tags = "0.2"
 log = "0.4"
 mime = "0.3.2"
 percent-encoding = "1.0"
-time = "0.1"
+time = {path = "../time"}
 unicase = "2.0"
 
 [features]
